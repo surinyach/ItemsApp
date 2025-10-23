@@ -40,6 +40,5 @@ public class ItemController {
             throws ItemNotFoundException, ItemServiceLogicException {
         return itemService.deleteItem(id);
     }
-
 }
 
